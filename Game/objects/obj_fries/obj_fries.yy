@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "powerup",
+  "name": "obj_fries",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Chips",
-    "path": "sprites/Chips/Chips.yy",
+    "name": "spr_fries",
+    "path": "sprites/spr_fries/spr_fries.yy",
   },
   "spriteMaskId": null,
   "visible": true,

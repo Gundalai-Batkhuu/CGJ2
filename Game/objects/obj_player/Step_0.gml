@@ -5,23 +5,23 @@ var key_jump = keyboard_check(vk_space);
 hsp = moveInput * walkspd;
 vsp = vsp + grv;
 
-if (place_meeting(x + hsp,y,oWall)){
+if (place_meeting(x + hsp,y, obj_wall)){
 	
-	while(!place_meeting(x+sign(hsp),y,oWall)){
+	while(!place_meeting(x+sign(hsp),y,obj_wall)){
 		x += sign(hsp);	
 	}
 	hsp = 0;
 }
 
-if (place_meeting(x,y+vsp,oWall)){
+if (place_meeting(x,y+vsp,obj_wall)){
 	
-	while(!place_meeting(x,y+sign(vsp),oWall)){
+	while(!place_meeting(x,y+sign(vsp),obj_wall)){
 		y += sign(vsp);	
 	}
 	vsp = 0;
 }
 
-if ((place_meeting(x,y+1,oWall)) && (key_jump)){
+if ((place_meeting(x,y+1,obj_wall)) && (key_jump)){
 	vsp = -7
 }
 
