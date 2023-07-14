@@ -1,11 +1,13 @@
 // Horizontal movement
 var _move_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _key_jump = keyboard_check(vk_space);
-var _is_jumping = false;
+
+// Get horizontal movement speed
+hsp = _move_input * walkspd;
+
+// Get vertical movement speed
 
 vsp = vsp + grv;
-// Store previous horizontal movement
-var _prev_move_input = 0;
 
 // Check if the player is on the ground or a platform
 var _on_platform = place_meeting(x, y+1, obj_platform);
@@ -16,16 +18,12 @@ var _is_colliding_with_platform_vertically = place_meeting(x, y + vsp, obj_platf
 // Check for collision with platform horizontally
 var _is_colliding_with_platform_horizontally = place_meeting(x + hsp, y, obj_platform);
 
-// Apply horizontal movement
-hsp = _move_input * walkspd;
-
 // Check for wall collision
 if (_is_colliding_with_platform_horizontally)
 {
 	while(!place_meeting(x+sign(hsp),y,obj_platform))
 	{
 		x += sign(hsp);	
-		_is_jumping = true;
 	}
 	hsp = 0;
 }
@@ -33,20 +31,19 @@ if (_is_colliding_with_platform_horizontally)
 // Apply vertical movement and handle jump
 if (_is_colliding_with_platform_vertically)
 {
-	_is_jumping = false;
 	
 	while(!place_meeting(x, y+sign(vsp), obj_platform))
 	{
 		y += sign(vsp);	
 	}
+	
 	vsp = 0;
+	
 }
 
 if (_on_platform) && (_key_jump)
 {
 	vsp = -7;
-	_is_jumping = true;
-	_prev_move_input = hsp;
 }
 
 x += hsp
