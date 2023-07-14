@@ -47,7 +47,7 @@
     {"id":{"name":"Chips","path":"sprites/Chips/Chips.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"sSawblade","path":"sprites/sSawblade/sSawblade.yy",},},
+    {"id":{"name":"spr_sawblade","path":"sprites/spr_sawblade/spr_sawblade.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
