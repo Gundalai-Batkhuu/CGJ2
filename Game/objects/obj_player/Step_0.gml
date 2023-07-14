@@ -1,25 +1,35 @@
-/// @description Step of the player object
-// You can write your code in this editor
-
-// Set the player's movement speed
-var moveSpeed = 5;
-
 // Horizontal movement
 var moveInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-x += moveInput * moveSpeed;
+var key_jump = keyboard_check(vk_space);
 
-// Set image_xscale to mirror the player sprite if moving left
-if (moveInput < 0)
-    image_xscale = -1;
-else if (moveInput > 0)
-    image_xscale = 1;
+hsp = moveInput * walkspd;
+vsp = vsp + grv;
+
+if (place_meeting(x + hsp,y,oWall)){
 	
-// Vertical movement
-moveInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-y += moveInput * moveSpeed;
+	while(!place_meeting(x+sign(hsp),y,oWall)){
+		x += sign(hsp);	
+	}
+	hsp = 0;
+}
+
+if (place_meeting(x,y+vsp,oWall)){
+	
+	while(!place_meeting(x,y+sign(vsp),oWall)){
+		y += sign(vsp);	
+	}
+	vsp = 0;
+}
+
+if ((place_meeting(x,y+1,oWall)) && (key_jump)){
+	vsp = -7
+}
+
+x += hsp
+y += vsp
 
 
-move_wrap(true, true, 0)
+move_wrap(false, false, 0)
 
 if mouse_check_button_pressed(mb_left)
 {
