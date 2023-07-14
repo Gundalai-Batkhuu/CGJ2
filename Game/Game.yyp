@@ -35,10 +35,13 @@
   },
   "resources": [
     {"id":{"name":"powerup","path":"objects/powerup/powerup.yy",},},
+    {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Chips","path":"sprites/Chips/Chips.yy",},},
     {"id":{"name":"sSawblade","path":"sprites/sSawblade/sSawblade.yy",},},
+    {"id":{"name":"oSawblade","path":"objects/oSawblade/oSawblade.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
