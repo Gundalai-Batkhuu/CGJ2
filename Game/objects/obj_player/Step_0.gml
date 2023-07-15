@@ -4,7 +4,10 @@ var _vert_input = keyboard_check(ord("W"));
 var _key_jump = keyboard_check(vk_space);
 
 // Get horizontal movement speed
+
 hsp = _move_input * walkspd;
+
+
 
 // Get vertical movement speed
 
@@ -25,6 +28,18 @@ var _is_colliding_with_ice_vertically = place_meeting(x, y + vsp, obj_ice);
 
 // Check for collision with platform horizontally
 var _is_colliding_with_ice_horizontally = place_meeting(x + hsp, y, obj_ice);
+
+
+if _move_input != 0 {
+	if(audio_is_playing(snd_footstep_stone_1) == false && footstep == 1 && _is_colliding_with_platform_vertically) {
+	    audio_play_sound(snd_footstep_stone_1, 1, false);
+		footstep = 0;
+	}
+	else if(audio_is_playing(snd_footstep_stone_1) == false && footstep == 0 && _is_colliding_with_platform_vertically){
+		audio_play_sound(snd_footstep_stone_2, 1, false);
+		footstep = 1;
+	}
+}
 
 // Check for wall collision
 if (_is_colliding_with_platform_horizontally)
@@ -69,8 +84,9 @@ if (_is_colliding_with_ice_horizontally)
 	}
 }
 
-x += hsp
-y += vsp
+p_hsp = hsp;
+x += hsp;
+y += vsp;
 
 // Set image_xscale to mirror the player sprite if moving horizontally
 if (_move_input < 0)
