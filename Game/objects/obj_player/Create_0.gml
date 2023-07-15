@@ -10,6 +10,9 @@ grav = .25
 hp = 4;
 max_hp = hp;
 
+mana = 1
+max_mana = 3
+
 
 
 
