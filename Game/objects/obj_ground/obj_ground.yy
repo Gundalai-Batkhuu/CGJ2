@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "spr_ground",
+    "path": "sprites/spr_ground/spr_ground.yy",
   },
   "spriteMaskId": null,
   "visible": true,

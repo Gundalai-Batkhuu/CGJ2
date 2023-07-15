@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
+    "name": "spr_water",
+    "path": "sprites/spr_water/spr_water.yy",
   },
   "spriteMaskId": null,
   "visible": true,
