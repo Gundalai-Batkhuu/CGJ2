@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"rm_level1","order":4,"path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"spr_rock_big","order":3,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
     {"name":"spr_bullet","order":2,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_healthgui","order":5,"path":"objects/obj_healthgui/obj_healthgui.yy",},

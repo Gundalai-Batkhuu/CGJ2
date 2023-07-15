@@ -40,7 +40,6 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
-    {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"obj_healthgui","path":"objects/obj_healthgui/obj_healthgui.yy",},},
@@ -87,7 +86,6 @@
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level1_liquid","path":"rooms/rm_level1_liquid/rm_level1_liquid.yy",},},
     {"roomId":{"name":"rm_level1_ice","path":"rooms/rm_level1_ice/rm_level1_ice.yy",},},
-    {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -1,6 +1,6 @@
 // Horizontal movement
-var _move_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var _vert_input = keyboard_check(vk_up);
+var _move_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var _vert_input = keyboard_check(ord("W"));
 var _key_jump = keyboard_check(vk_space);
 
 // Get horizontal movement speed
