@@ -10,18 +10,18 @@ hsp = _move_input * walkspd;
 vsp = vsp + grv;
 
 // Check if the player is on the ground or a platform
-var _on_platform = place_meeting(x, y+1, obj_platform);
+var _on_platform = place_meeting(x, y+1, obj_ground);
 
 // Check for collision with platform below
-var _is_colliding_with_platform_vertically = place_meeting(x, y + vsp, obj_platform);
+var _is_colliding_with_platform_vertically = place_meeting(x, y + vsp, obj_ground);
 
 // Check for collision with platform horizontally
-var _is_colliding_with_platform_horizontally = place_meeting(x + hsp, y, obj_platform);
+var _is_colliding_with_platform_horizontally = place_meeting(x + hsp, y, obj_ground);
 
 // Check for wall collision
 if (_is_colliding_with_platform_horizontally)
 {
-	while(!place_meeting(x+sign(hsp),y,obj_platform))
+	while(!place_meeting(x+sign(hsp),y,obj_ground))
 	{
 		x += sign(hsp);	
 	}
@@ -32,7 +32,7 @@ if (_is_colliding_with_platform_horizontally)
 if (_is_colliding_with_platform_vertically)
 {
 	
-	while(!place_meeting(x, y+sign(vsp), obj_platform))
+	while(!place_meeting(x, y+sign(vsp), obj_ground))
 	{
 		y += sign(vsp);	
 	}

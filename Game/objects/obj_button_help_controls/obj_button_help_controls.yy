@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_platform",
-  "eventList": [],
+  "name": "obj_button_help_controls",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu",
+    "path": "folders/Objects/Menu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
