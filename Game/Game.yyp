@@ -58,7 +58,6 @@
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
-    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"spr_shift_charges","path":"sprites/spr_shift_charges/spr_shift_charges.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_ice","path":"objects/obj_ice/obj_ice.yy",},},
