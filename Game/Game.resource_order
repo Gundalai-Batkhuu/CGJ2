@@ -18,6 +18,7 @@
     {"name":"spr_shift_charges","order":12,"path":"sprites/spr_shift_charges/spr_shift_charges.yy",},
     {"name":"obj_persistent","order":1,"path":"objects/obj_persistent/obj_persistent.yy",},
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"fnt_title","order":1,"path":"fonts/fnt_title/fnt_title.yy",},
     {"name":"obj_ice","order":2,"path":"objects/obj_ice/obj_ice.yy",},
     {"name":"spr_button","order":10,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"obj_button_help_controls","order":4,"path":"objects/obj_button_help_controls/obj_button_help_controls.yy",},
