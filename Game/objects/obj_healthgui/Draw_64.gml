@@ -10,3 +10,6 @@ for (var i = 0; i < obj_player.max_hp; i++) {
     var heartx = i * heart_spacing + imageX;
 	draw_sprite_ext(spriteIndex, 0, heartx, 0, scale, scale, 0, c_white, 1);
 }
+
+
+draw_sprite(spr_shift_charge_orb,0,x + 1280, 0);
