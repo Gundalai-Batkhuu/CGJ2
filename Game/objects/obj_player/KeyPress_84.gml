@@ -10,15 +10,22 @@ global.char_y = obj_player.y;
 // Check the current room index and switch to the other room
 if (currentRoom == rm_level1_ice) && (obj_player.mana > 0)
 {
-    room_goto(rm_level1_liquid);
-	obj_player.mana = obj_player.mana - 1;
+	if (mana > 0)
+		mana -= 1;
+	cooldown = 5;
+	room_goto(rm_level1_liquid);
 }
 
 else if (currentRoom == rm_level1_liquid) && (obj_player.mana > 0)
 {
-    room_goto(rm_level1_ice);
-	obj_player.mana = obj_player.mana - 1;
+    if(mana > 0) mana -= 1;
+	room_goto(rm_level1_ice);	
 }
+
+
+
+
+
 
 
 

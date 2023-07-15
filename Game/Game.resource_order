@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"rm_level1","order":4,"path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"spr_rock_big","order":3,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
     {"name":"spr_bullet","order":2,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_healthgui","order":5,"path":"objects/obj_healthgui/obj_healthgui.yy",},
@@ -28,6 +29,7 @@
     {"name":"obj_button_parent","order":1,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"spr_shift_charge_orb","order":13,"path":"sprites/spr_shift_charge_orb/spr_shift_charge_orb.yy",},
     {"name":"obj_menu_manager","order":5,"path":"objects/obj_menu_manager/obj_menu_manager.yy",},
+    {"name":"obj_camera_frozen","order":10,"path":"objects/obj_camera_frozen/obj_camera_frozen.yy",},
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_enemy_flying","order":7,"path":"objects/obj_enemy_flying/obj_enemy_flying.yy",},
     {"name":"spr_sawblade","order":3,"path":"sprites/spr_sawblade/spr_sawblade.yy",},

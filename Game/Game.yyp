@@ -40,6 +40,7 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
+    {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"obj_healthgui","path":"objects/obj_healthgui/obj_healthgui.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"spr_shift_charge_orb","path":"sprites/spr_shift_charge_orb/spr_shift_charge_orb.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
+    {"id":{"name":"obj_camera_frozen","path":"objects/obj_camera_frozen/obj_camera_frozen.yy",},},
     {"id":{"name":"spr_fries","path":"sprites/spr_fries/spr_fries.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
@@ -85,6 +87,7 @@
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level1_liquid","path":"rooms/rm_level1_liquid/rm_level1_liquid.yy",},},
     {"roomId":{"name":"rm_level1_ice","path":"rooms/rm_level1_ice/rm_level1_ice.yy",},},
+    {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
