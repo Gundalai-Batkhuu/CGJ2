@@ -1,7 +1,7 @@
 width = 1280;
 height = 720;
 
-follow = obj_character;
+follow = obj_player;
 
 xTo = follow.x;
 yTo = follow.y;

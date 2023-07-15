@@ -74,7 +74,7 @@
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"obj_enemy_flying","path":"objects/obj_enemy_flying/obj_enemy_flying.yy",},},
-    {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_sawblade","path":"sprites/spr_sawblade/spr_sawblade.yy",},},
     {"id":{"name":"rm_level1_liquid","path":"rooms/rm_level1_liquid/rm_level1_liquid.yy",},},
   ],
