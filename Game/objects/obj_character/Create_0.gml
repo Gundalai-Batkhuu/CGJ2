@@ -7,7 +7,7 @@ walkspd = 4;
 jumpspd = -5;
 grav = .25
 
-hp = 5;
+hp = 4;
 max_hp = hp;
 
 
