@@ -21,7 +21,30 @@ else if (currentRoom == rm_level1_liquid) && (obj_player.mana > 0)
 }
 
 
-
+if (obj_player.mana > 0) {
+  // Check the current room index and switch to the other room
+  switch (currentRoom) {
+    case rm_level1_ice:
+      mana -= 1;
+      room_goto(rm_level1_liquid);
+      break;
+      
+    case rm_level1_liquid:
+      mana -= 1;
+      room_goto(rm_level1_ice);
+      break;
+	 
+	case rm_level2_ice:
+      mana -= 1;
+      room_goto(rm_level2_liquid);
+      break;
+      
+    case rm_level2_liquid:
+      mana -= 1;
+      room_goto(rm_level2_ice);
+      break;
+  }
+}
 
 
 

@@ -48,7 +48,7 @@ if (_is_colliding_with_platform_vertically)
 	
 	vsp = 0;
 	
-}
+} 
 if (_is_colliding_with_ice_vertically)
 {
 	vsp = 0;
@@ -78,7 +78,6 @@ if (_move_input < 0)
 else if (_move_input > 0)
     image_xscale = 1;
 
-move_wrap(false, false, 0)
 
 if mouse_check_button_pressed(mb_left)
 {
