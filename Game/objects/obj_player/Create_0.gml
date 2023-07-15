@@ -15,4 +15,3 @@ mana = 1
 max_mana = 3
 
 
-
