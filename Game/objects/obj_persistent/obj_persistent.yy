@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ice",
+  "name": "obj_persistent",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Tiles",
-    "path": "folders/Objects/Tiles.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -23,12 +23,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"teleport_points","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_ice",
-    "path": "sprites/spr_ice/spr_ice.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

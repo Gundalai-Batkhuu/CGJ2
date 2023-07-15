@@ -3,5 +3,5 @@
 
 instance_destroy();
 effect_create_above(ef_firework, x, y, 0, $FFFFFF & $ffffff);
-obj_game.portal_points += 1;
+global.portal_points += 1;
 
