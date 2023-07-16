@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_rock_big",
-    "path": "sprites/spr_rock_big/spr_rock_big.yy",
+    "name": "spr_bat",
+    "path": "sprites/spr_bat/spr_bat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

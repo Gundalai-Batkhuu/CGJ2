@@ -6,7 +6,7 @@
     {"name":"Templates","order":2,"path":"folders/Easy-Transition/Templates.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_rock_big","order":5,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
+    {"name":"spr_bat","order":5,"path":"sprites/spr_bat/spr_bat.yy",},
     {"name":"spr_bullet","order":3,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_healthgui","order":5,"path":"objects/obj_healthgui/obj_healthgui.yy",},
     {"name":"SequenceTemplate4","order":4,"path":"sequences/SequenceTemplate4/SequenceTemplate4.yy",},

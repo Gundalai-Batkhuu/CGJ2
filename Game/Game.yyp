@@ -43,7 +43,7 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
-    {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
+    {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"obj_healthgui","path":"objects/obj_healthgui/obj_healthgui.yy",},},
     {"id":{"name":"SequenceTemplate4","path":"sequences/SequenceTemplate4/SequenceTemplate4.yy",},},
