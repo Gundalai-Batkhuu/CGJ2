@@ -92,11 +92,6 @@ else if (_move_input > 0)
     image_xscale = 1;
 
 
-if mouse_check_button_pressed(ord("Q"))
-{
-    instance_create_layer(x, y, "Instances", obj_bullet)
-}
-
 if (hp == 0){
 	// Handle player death	
 }
