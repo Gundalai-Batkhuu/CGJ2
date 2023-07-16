@@ -1,0 +1,1 @@
+easy_transition(SequenceTemplate5, 1, 1,320,	180, -1, -1)
