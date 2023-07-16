@@ -102,7 +102,6 @@
     {"id":{"name":"rm_level2_liquid","path":"rooms/rm_level2_liquid/rm_level2_liquid.yy",},},
     {"id":{"name":"spr_shift_charge_orb","path":"sprites/spr_shift_charge_orb/spr_shift_charge_orb.yy",},},
     {"id":{"name":"SequenceTemplate3","path":"sequences/SequenceTemplate3/SequenceTemplate3.yy",},},
-    {"id":{"name":"obj_ground_frozen","path":"objects/obj_ground_frozen/obj_ground_frozen.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
     {"id":{"name":"obj_camera_frozen","path":"objects/obj_camera_frozen/obj_camera_frozen.yy",},},
     {"id":{"name":"spr_gem","path":"sprites/spr_gem/spr_gem.yy",},},
