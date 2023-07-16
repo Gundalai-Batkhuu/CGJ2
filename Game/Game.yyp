@@ -60,6 +60,7 @@
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
     {"id":{"name":"spr_shift_charges","path":"sprites/spr_shift_charges/spr_shift_charges.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"rm_level1a_liquid","path":"rooms/rm_level1a_liquid/rm_level1a_liquid.yy",},},
     {"id":{"name":"obj_ice","path":"objects/obj_ice/obj_ice.yy",},},
     {"id":{"name":"rm_level2_ice","path":"rooms/rm_level2_ice/rm_level2_ice.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
@@ -71,6 +72,7 @@
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_ice","path":"sprites/spr_ice/spr_ice.yy",},},
+    {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"rm_level2_liquid","path":"rooms/rm_level2_liquid/rm_level2_liquid.yy",},},
@@ -91,6 +93,7 @@
     {"roomId":{"name":"rm_level1_ice","path":"rooms/rm_level1_ice/rm_level1_ice.yy",},},
     {"roomId":{"name":"rm_level2_liquid","path":"rooms/rm_level2_liquid/rm_level2_liquid.yy",},},
     {"roomId":{"name":"rm_level2_ice","path":"rooms/rm_level2_ice/rm_level2_ice.yy",},},
+    {"roomId":{"name":"rm_level1a_liquid","path":"rooms/rm_level1a_liquid/rm_level1a_liquid.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
