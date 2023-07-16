@@ -4,7 +4,7 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-draw_text(x, y, "Move with arrow keys\nShoot with Q\nRestart with R");
+draw_text(x, 1000, "Move with arrow keys\nShoot with Q\nRestart with R");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

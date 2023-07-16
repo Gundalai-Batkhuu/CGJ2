@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fries",
-    "path": "sprites/spr_fries/spr_fries.yy",
+    "name": "spr_gem",
+    "path": "sprites/spr_gem/spr_gem.yy",
   },
   "spriteMaskId": null,
   "visible": true,

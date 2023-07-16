@@ -1,16 +1,12 @@
 // Horizontal movement
-var _move_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _vert_input = keyboard_check(ord("W"));
+var _move_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+var _vert_input = keyboard_check(vk_up);
 var _key_jump = keyboard_check(vk_space);
 
 // Get horizontal movement speed
-
 hsp = _move_input * walkspd;
 
-
-
 // Get vertical movement speed
-
 vsp = vsp + grv;
 
 // Check if the player is on the ground or a platform
@@ -29,6 +25,8 @@ var _is_colliding_with_ice_vertically = place_meeting(x, y + vsp, obj_ice);
 // Check for collision with platform horizontally
 var _is_colliding_with_ice_horizontally = place_meeting(x + hsp, y, obj_ice);
 
+
+if (!_is_colliding_with_platform_vertically && hsp == 0) hsp = p_hsp;
 
 if _move_input != 0 {
 	if(audio_is_playing(snd_footstep_stone_1) == false && footstep == 1 && _is_colliding_with_platform_vertically) {
@@ -60,10 +58,9 @@ if (_is_colliding_with_platform_vertically)
 	{
 		y += sign(vsp);	
 	}
-	
 	vsp = 0;
-	
 } 
+
 if (_is_colliding_with_ice_vertically)
 {
 	vsp = 0;
@@ -95,7 +92,7 @@ else if (_move_input > 0)
     image_xscale = 1;
 
 
-if mouse_check_button_pressed(mb_left)
+if mouse_check_button_pressed(ord("Q"))
 {
     instance_create_layer(x, y, "Instances", obj_bullet)
 }

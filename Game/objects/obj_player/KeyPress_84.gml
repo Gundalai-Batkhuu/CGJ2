@@ -14,13 +14,15 @@ if (obj_player.mana > 0) {
     case rm_level1_ice:
       mana -= 1;
 	  audio_pause_sound(snd_water);
-      room_goto(rm_level1_liquid);
+	  easy_transition(SequenceTemplate4, 1, 0,1320, 1180, -1, function(){room_goto(rm_level1_liquid)} )
+      //room_goto(rm_level1_liquid);
       break;
       
     case rm_level1_liquid:
       mana -= 1;
 	  audio_pause_sound(snd_water);
-      room_goto(rm_level1_ice);
+	  easy_transition(SequenceTemplate4, 1, 0,1320, 1180, -1, function(){room_goto(rm_level1_ice)} )
+      //room_goto(rm_level1_ice);
       break;
 	 
 	case rm_level2_ice:
